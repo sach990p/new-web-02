@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: star-web
-        image: kanha.azurecr.io/star-web:latest
+        image: ramacr2.azurecr.io/star-web:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
